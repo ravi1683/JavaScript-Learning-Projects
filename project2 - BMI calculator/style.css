@@ -1,0 +1,124 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Container */
+.container {
+    width: 450px;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 30px;
+    color: #00d4ff;
+}
+
+/* Form */
+form p {
+    margin: 20px 0;
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Calculate Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #00d4ff;
+    color: #212121;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00aacc;
+}
+
+/* Results */
+#results {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff99;
+}
+
+/* BMI Weight Guide */
+#weight-guide {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#weight-guide h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #00d4ff;
+}
+
+#weight-guide p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+```
